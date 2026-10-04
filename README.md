@@ -1,4 +1,4 @@
-# higgsfield video swap
+# Need for Speed video swap
 
 Puts your own character and car into a Blacklist scene from *Need for Speed: Most Wanted* (2005), using the Higgsfield API.
 
@@ -28,8 +28,35 @@ HF_KEY=KEY_ID:KEY_SECRET
 `HF_API_KEY` + `HF_API_SECRET` also work.
 
 ## Generating the character
+This is the prompt I used in Google Gemini to generate the reference image of my character:
+
+```
+Use the uploaded photographs as identity references to create a character version of me in the original visual style of Need for Speed: Most Wanted (2005). Study my facial structure across all reference images and preserve my recognizable identity: face shape, proportions, jawline, cheekbones, nose, eyes, eyebrows, lips, skin tone, and hairstyle. Do not replace my features with a generic game character or exaggerate them.
+
+Translate my real-life appearance into a convincing mid-2000s video-game character render—not a photograph, modern AAA character, cartoon, or illustration. Match the original game’s aesthetic: moderately low-poly geometry, visibly textured skin and clothing, slightly angular contours, baked shading, restrained facial detail, gritty street-racing atmosphere, strong contrast, and muted yellow-green/sepia color grading. The result should feel like an authentic character asset from the 2005 game, not a photorealistic portrait with a filter.
+
+Produce one image arranged as a clean 2×2 character reference sheet with four distinct views:
+
+Front-facing.
+Left three-quarter view.
+Right three-quarter view.
+Exact side profile.
+Use consistent chest-up framing, camera distance, lighting, neutral expression, hairstyle, and clothing across all four views. Keep the character’s facial geometry and identity consistent as the angle changes. Use understated street-racing clothing appropriate to the game’s setting, without distracting accessories. Place each view against the same simple, subdued background so the face remains the focal point. Provide them in the original vivid color scheme from the nfs era.
+
+Prioritize recognizable likeness and faithful 2005-era game graphics over beautification or added detail. No text, labels, numbers, logos, watermarks, HUD elements, or interface graphics anywhere in the image. 
+```
+
+<img width="2048" height="2048" alt="Basti" src="https://github.com/user-attachments/assets/530cdd8e-bcee-4139-adeb-021929977dc0" />
 
 ## Generating the car
+This is the prompt I used in Google Gemini to generate the reference image of my car:
+
+```
+Generate the fiat 500e in green as a need for speed most wanted (2005) car in that original style. Provide 4 different angles. No writing on the image!
+```
+
+<img width="2600" height="1632" alt="Fiat 500" src="https://github.com/user-attachments/assets/9314369a-b536-4674-8ac3-3d8a28ac829f" />
+
 
 ## Usage
 
